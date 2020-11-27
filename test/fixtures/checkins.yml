@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  store_id: 1
+  costumer_id: 1
+  temp: 1.5
+  datetime: 2020-11-27
+
+two:
+  store_id: 1
+  costumer_id: 1
+  temp: 1.5
+  datetime: 2020-11-27
