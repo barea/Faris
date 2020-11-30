@@ -17,7 +17,7 @@
     <% @checkins.each do |checkin| %>
       <tr>
         <td><%= checkin.store_id %></td>
-        <td><%= checkin.costumer_id %></td>
+        <td><%= checkin.user_id %></td>
         <td><%= checkin.temp %></td>
         <td><%= checkin.datetime %></td>
         <td><%= link_to 'Show', checkin %></td>

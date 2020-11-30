@@ -22,7 +22,9 @@
         <td><%= link_to 'Show', store %></td>
         <td><%= link_to 'Edit', edit_store_path(store) %></td>
         <td><%= link_to 'Destroy', store, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-        <td><%= link_to 'Chick in', new_checkins_path(store_id: store.id) %></td>
+        <%if current_user.customer? %>
+        <td><%= link_to 'Chick in', new_checkin_path(store_id: store.id) %></td>
+          <%end%>
       </tr>
     <% end %>
   </tbody>

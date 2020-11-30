@@ -12,23 +12,12 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :store_id %>
-    <%= form.number_field :store_id %>
-  </div>
-
-  <div class="field">
-    <%= form.label :costumer_id %>
-    <%= form.number_field :costumer_id %>
+    <%= form.hidden_field :store_id, value: params[:store_id] %>
   </div>
 
   <div class="field">
     <%= form.label :temp %>
     <%= form.text_field :temp %>
-  </div>
-
-  <div class="field">
-    <%= form.label :datetime %>
-    <%= form.date_select :datetime %>
   </div>
 
   <div class="actions">

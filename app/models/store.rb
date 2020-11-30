@@ -1,3 +1,4 @@
 class Store < ApplicationRecord
-  has_one :Store
+  has_one :owner
+  has_many :checkins
 end

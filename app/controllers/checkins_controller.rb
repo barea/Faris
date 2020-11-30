@@ -24,10 +24,13 @@ class CheckinsController < ApplicationController
   # POST /checkins
   # POST /checkins.json
   def create
+
     @checkin = Checkin.new(checkin_params)
+    @checkin.user_id = current_user.id
+    @checkin.datetime = DateTime.now
 
     respond_to do |format|
-      if @checkin.save
+      if @checkin.save!
         format.html { redirect_to @checkin, notice: 'Checkin was successfully created.' }
         format.json { render :show, status: :created, location: @checkin }
       else
@@ -69,6 +72,6 @@ class CheckinsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def checkin_params
-      params.require(:checkin).permit(:store_id, :costumer_id, :temp, :datetime)
+      params.require(:checkin).permit(:store_id, :user_id, :temp, :datetime)
     end
 end
