@@ -26,6 +26,13 @@ class Users::RegistrationsController < Devise::RegistrationsController
     devise_parameter_sanitizer.permit(:sign_up, keys: %i[nric])
   end
 
+  protected
+
+  # The path used after sign up.
+  def after_sign_up_path_for(resource)
+    edit_user_path(@user)
+  end
+
   # GET /resource/edit
   # def edit
   #   super
@@ -49,14 +56,6 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # def cancel
   #   super
   # end
-
-   protected
-
-  # The path used after sign up.
-  def after_sign_up_path_for(resource)
-    edit_user_path(@user)
-  end
-
 
   # If you have extra params to permit, append them to the sanitizer.
   # def configure_sign_up_params

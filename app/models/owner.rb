@@ -1,4 +1,3 @@
 class Owner < User
-  has_one : Store
-  has_many : Checkins
+  has_many :Checkins
 end

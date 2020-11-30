@@ -1,4 +1,4 @@
 class Checkin < ApplicationRecord
-  belongs_to : Store
-  belonds_to : User
+  belongs_to :Store
+  belongs_to :User
   end

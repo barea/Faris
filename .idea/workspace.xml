@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2991878-05ac-402a-a4e1-0ed56523378a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/users/registrations/customerOwner.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/stores_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/stores_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/checkin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/checkin.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/customer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/customer.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/owner.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/owner.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/initializers/devise.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/store.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stores/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/stores/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stores/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/stores/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +129,12 @@
       <workItem from="1606461277272" duration="826000" />
       <workItem from="1606463179196" duration="1770000" />
       <workItem from="1606464994120" duration="1790000" />
-      <workItem from="1606466818407" duration="1209000" />
+      <workItem from="1606466818407" duration="21056000" />
+      <workItem from="1606705817305" duration="1863000" />
+      <workItem from="1606707715563" duration="1906000" />
+      <workItem from="1606709669271" duration="1780000" />
+      <workItem from="1606711482353" duration="592000" />
+      <workItem from="1606716622417" duration="1054000" />
     </task>
     <servers />
   </component>
@@ -139,5 +147,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1606463204146" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606716834176">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606716834176" />
   </component>
 </project>
