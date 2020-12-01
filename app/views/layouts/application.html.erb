@@ -10,15 +10,15 @@
   </head>
 
   <body>
-    <% if signed_in? %>
-      <%= link_to "Home", stores_path %>
-      <%= link_to "Logout", destroy_user_session_path, method: :delete %>
-    <% end %>
     <%if signed_in? && current_user.customer? %>
+    <%= link_to "Home", stores_path %>
      <%= link_to "History", history_checkins_path %>
     <% end %>
     <%if signed_in? && current_user.owner? %>
-    <%= link_to "My stores", myStore_checkins_path %>
+    <%= link_to "My stores", myStore_stores_path %>
+  <% end %>
+    <% if signed_in? %>
+      <%= link_to "Logout", destroy_user_session_path, method: :delete %>
     <% end %>
     <%= yield %>
   </body>

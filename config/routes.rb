@@ -4,11 +4,14 @@ Rails.application.routes.draw do
       get :history
       get :customers
       get :welcome
-      get :myStore
     end
   end
 
-  resources :stores
+  resources :stores do
+    collection do
+      get :myStore
+    end
+  end
 
   devise_for :users, controllers: { registrations: 'users/registrations'}
 

@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2991878-05ac-402a-a4e1-0ed56523378a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/checkins/myStore.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/checkins_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/checkins_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/checkins/customers.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/checkins/customers.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/checkins/welcome.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/checkins/welcome.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/stores_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/stores_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/checkins/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/checkins/index.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/checkins/index.json.jbuilder" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/checkins/myStore.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/stores/myStore.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/checkins/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/checkins/show.json.jbuilder" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stores/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/stores/_form.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stores/edit.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stores/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/stores/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stores/show.html.erb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/stores/show.json.jbuilder" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\test\Faris\app\views\stores" />
       <recent name="C:\code\test\Faris\app\views\checkins" />
     </key>
   </component>
@@ -155,7 +166,9 @@
       <workItem from="1606793622105" duration="1797000" />
       <workItem from="1606795454013" duration="1282000" />
       <workItem from="1606797556332" duration="1772000" />
-      <workItem from="1606799408959" duration="1407000" />
+      <workItem from="1606799408959" duration="1785000" />
+      <workItem from="1606801496911" duration="1797000" />
+      <workItem from="1606803344039" duration="1194000" />
     </task>
     <servers />
   </component>
