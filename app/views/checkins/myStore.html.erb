@@ -1,0 +1,18 @@
+<p id="notice"><%= notice %></p>
+
+<h1>My stores</h1>
+
+<table>
+  <tbody>
+  <% @stores.each do |store| %>
+    <tr>
+      <td><%= store.name %></td>
+      <td><%= link_to "Customers list",customers_checkins_path(store_id: store.id) %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+<%= link_to "new store", new_store_path  %>
+

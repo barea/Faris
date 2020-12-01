@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       get :history
       get :customers
       get :welcome
+      get :myStore
     end
   end
 

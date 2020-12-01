@@ -13,12 +13,19 @@ class CheckinsController < ApplicationController
   def show
   end
 
+  #customer check in list
   def history
     @checkins = Checkin.where(user_id: current_user.id)
   end
 
-  def customers
+  #Owner srores list
+  def myStore
     @stores = Store.where(user_id: current_user.id)
+  end
+
+  #list of store customers
+  def customers
+    @checkin = Checkin.where(store_id: params[:store_id]).all
   end
 
   # GET /checkins/new

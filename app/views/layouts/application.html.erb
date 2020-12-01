@@ -18,7 +18,7 @@
      <%= link_to "History", history_checkins_path %>
     <% end %>
     <%if signed_in? && current_user.owner? %>
-    <%= link_to "Customers", customers_checkins_path %>
+    <%= link_to "My stores", myStore_checkins_path %>
     <% end %>
     <%= yield %>
   </body>
