@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_11_30_124132) do
+ActiveRecord::Schema.define(version: 2020_12_01_031040) do
 
   create_table "checkins", force: :cascade do |t|
     t.integer "store_id"

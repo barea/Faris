@@ -1,0 +1,27 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Checkins</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>Store</th>
+    <th>Temp</th>
+    <th>Datetime</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+  <% @checkins.each do |checkin| %>
+    <tr>
+      <td><%= checkin.store.name%></td>
+      <td><%= checkin.temp%></td>
+      <td><%= checkin.datetime %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+

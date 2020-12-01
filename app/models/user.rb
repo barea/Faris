@@ -8,7 +8,7 @@ class User < ApplicationRecord
     type == 'Customer'
   end
 
-  def owner
+  def owner?
     type == 'Owner'
   end
 end

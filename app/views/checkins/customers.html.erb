@@ -1,0 +1,17 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Checkins</h1>
+
+<table>
+
+  <tbody>
+  <% @stores.each do |store| %>
+    <tr>
+      <td><%= store.name %></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<br>
+

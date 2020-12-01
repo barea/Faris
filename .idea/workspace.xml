@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2991878-05ac-402a-a4e1-0ed56523378a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/views/checkins/customers.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/checkins/history.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/checkins_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/checkins_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users/registrations_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/stores_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/stores_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/checkin.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/checkin.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/customer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/customer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/owner.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/owner.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/store.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/store.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/checkins/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/checkins/_form.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/checkins/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/checkins/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/checkins/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/checkins/show.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/stores/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/stores/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
@@ -146,7 +146,13 @@
       <workItem from="1606733263229" duration="1676000" />
       <workItem from="1606738565144" duration="1779000" />
       <workItem from="1606740412667" duration="628000" />
-      <workItem from="1606742230144" duration="625000" />
+      <workItem from="1606742230144" duration="1778000" />
+      <workItem from="1606744124338" duration="1779000" />
+      <workItem from="1606745936184" duration="1836000" />
+      <workItem from="1606747809333" duration="1223000" />
+      <workItem from="1606749624910" duration="1791000" />
+      <workItem from="1606751448176" duration="2215000" />
+      <workItem from="1606791390066" duration="785000" />
     </task>
     <servers />
   </component>

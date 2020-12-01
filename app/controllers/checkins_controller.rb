@@ -1,5 +1,6 @@
 class CheckinsController < ApplicationController
   before_action :set_checkin, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_user!
 
   # GET /checkins
   # GET /checkins.json
@@ -10,6 +11,14 @@ class CheckinsController < ApplicationController
   # GET /checkins/1
   # GET /checkins/1.json
   def show
+  end
+
+  def history
+    @checkins = Checkin.where(user_id: current_user.id)
+  end
+
+  def customers
+    @stores = Store.where(user_id: current_user.id)
   end
 
   # GET /checkins/new
