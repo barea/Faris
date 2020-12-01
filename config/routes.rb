@@ -3,10 +3,12 @@ Rails.application.routes.draw do
     collection do
       get :history
       get :customers
+      get :welcome
     end
   end
 
   resources :stores
+
   devise_for :users, controllers: { registrations: 'users/registrations'}
 
   root to: 'stores#index'

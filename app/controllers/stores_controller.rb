@@ -32,7 +32,7 @@ class StoresController < ApplicationController
 
     respond_to do |format|
       if @store.save
-        format.html { redirect_to @store, notice: 'Store was successfully created.' }
+         format.html { redirect_to @store, notice: 'Store was successfully created.' }
         format.json { render :show, status: :created, location: @store }
       else
         format.html { render :new }

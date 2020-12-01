@@ -20,7 +20,9 @@ class Users::RegistrationsController < Devise::RegistrationsController
     params[:user] = params[:user]&.merge(type: 'Customer')
     super
   end
+  def welcome
 
+  end
 
 
   protected
@@ -30,9 +32,9 @@ class Users::RegistrationsController < Devise::RegistrationsController
     devise_parameter_sanitizer.permit(:sign_up, keys: %i[nric])
   end
   # The path used after sign up.
-  #def after_sign_up_path_for(resource)
-
-  # end
+  def after_sign_up_path_for(resource)
+    welcome_checkins_path
+   end
 
   # GET /resource/edit
   # def edit
