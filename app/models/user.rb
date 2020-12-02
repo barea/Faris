@@ -11,4 +11,7 @@ class User < ApplicationRecord
   def owner?
     type == 'Owner'
   end
+
+  validates_presence_of :name
+  validates_presence_of :nric
 end
